@@ -16,13 +16,13 @@ namespace WowPacketParser.Store.Objects
         [DBFieldName("displayId")]
         public uint? DisplayID;
 
-        [DBFieldName("name", LocaleConstant.enUS)] // ToDo: Add locale support
+        [DBFieldName("name")] // ToDo: Add locale support
         public string Name;
 
         [DBFieldName("IconName")]
         public string IconName;
 
-        [DBFieldName("castBarCaption", LocaleConstant.enUS)] // ToDo: Add locale support
+        [DBFieldName("castBarCaption")] // ToDo: Add locale support
         public string CastCaption;
 
         [DBFieldName("unk1")]
